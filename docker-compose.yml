@@ -1,0 +1,16 @@
+services:
+  android-build:
+    build: .
+    image: capacitor_ionic_docker-android-build:latest
+    volumes:
+      - gradle_cache:/root/.gradle
+      - android_sdk_cache:/opt/android-sdk-cache
+    working_dir: /project
+
+volumes:
+  gradle_cache:
+    name: capacitor_ionic_docker_gradle_cache
+  npm_cache:
+    name: capacitor_ionic_docker_npm_cache
+  android_sdk_cache:
+    name: capacitor_ionic_docker_sdk_cache
