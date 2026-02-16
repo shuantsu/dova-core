@@ -7,6 +7,7 @@ Este guia foca na eficiência radical: o seu sistema hospeda o código (pnpm) e 
 **OBS.:** A primeira vez que você rodar o container e compilar vai demorar. É o preço do setup. Mas depois disso, é só alegria. Nada de instalar e configurar Android Studio e um monte de Bloatware que vem com ele.
 
 [LEIA: "Como Otimizei Builds Android com Docker - 25 Segundos"](./Como-Otimizei-Builds-Android-com-Docker-25-Segundos.md)
+
 [Repo que eu usava antes para compilar usando Github Actions, em cerca de 4 a 6 minutos](https://github.com/shuantsu/ionic-github-actions-apk)
 
 ## 1. Setup do Host (PowerShell)
