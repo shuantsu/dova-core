@@ -2,7 +2,7 @@
 
 ### Criar apps híbridos para Android com Ionic Capacitor e sem Android Studio
 
-[DovaCore running](./4c54edae-a55a-4cbc-b4cc-5358fa6be557.jpg)
+![DovaCore running](./4c54edae-a55a-4cbc-b4cc-5358fa6be557.jpg)
 
 Este guia foca na eficiência radical: o seu sistema hospeda o código (pnpm) e o Docker (Debian-based) resolve a compilação. Sem Android Studio, sem lixo, apenas o essencial.
 
