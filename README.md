@@ -66,7 +66,12 @@ npx cap sync         # (Sempre que mudar código/plugins)
 Execute o comando de build pesado dentro do container isolado. A velocidade (25s) vem do cache do Gradle que deve estar configurado no seu `docker-compose.yml`.
 
 ```
+
+docker compose build # (Só na 1ª vez)
+# pode demorar dependendo da sua internet. Normalmente ele faz um download de 1Gb ou 2Gb
+
 docker compose run --rm android-build bash -c "cd MeuApp/android && chmod +x gradlew && ./gradlew assembleDebug"
+# primeira vez pode demorar uns 3 minutos, nas próximas é pra demorar cerca de 20 a 25 segundos
 
 ```
 
