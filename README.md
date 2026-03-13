@@ -22,7 +22,11 @@ Verifique e instale as ferramentas apenas se necessário.
 nvm version 
 # Se não tiver, instale (https://github.com/coreybutler/nvm-windows)
 
-nvm install 20 && nvm use 20
+
+nvm install 22 && nvm use 22
+
+# using version >=22 is essential, notice:
+# [fatal] The Capacitor CLI requires NodeJS >=22.0.0
 
 ```
 
